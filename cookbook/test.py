@@ -23,3 +23,6 @@ def generator(n):
 
 result = generator(10)
 print(list(result))
+
+
+
