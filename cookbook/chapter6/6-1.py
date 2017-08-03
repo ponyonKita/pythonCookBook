@@ -3,7 +3,7 @@
 
 import csv
 #
-# # row가 튜플형태로 나옴
+# # row가 리스트형태로 나옴
 with open('/Users/bhkim/pythonCookBook/cookbook/stock.txt') as f:
     f_csv = csv.reader(f)
     headers = next(f_csv)
