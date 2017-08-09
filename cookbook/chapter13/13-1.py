@@ -6,8 +6,9 @@ import fileinput
 with fileinput.input() as f_input:
     for line in f_input:
         #print(line, end='')
-        print(f_input(), f_input.lineno(), line, end='')
+        print(line, end='')
 
 
 
 
+# python3 ./13-1.py /etc/passwd
