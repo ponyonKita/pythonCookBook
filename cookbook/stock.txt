@@ -1,3 +1,1 @@
-a,b,c,d,f
-1,2,3,4,5
-1,2,3,4,5
+{"name": "Selina", "shares": "100", "price": 542.33, "isSucceed": "True", "isData": "null"}
