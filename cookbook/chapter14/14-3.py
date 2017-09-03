@@ -30,6 +30,6 @@ class TestConvenersion(unittest.TestCase):
 
 class TestConvenersion2(unittest.TestCase):
     def test_bed_int(self):
-        with self.assertRaisesRegex(ValueError, 'invalid litral .*')
+        with self.assertRaisesRegex(ValueError, 'invalid litral .*'):
             r = parse_int('N/A')
 
