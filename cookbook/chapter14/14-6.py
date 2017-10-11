@@ -8,7 +8,7 @@ except (URLError, ValueError):
 
 
 
-    
+
 import errno
 import logging
 try:
